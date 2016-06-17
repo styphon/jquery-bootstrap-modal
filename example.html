@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>jQuery Bootstrap Modal Maker</title>
+
+		<link rel="stylesheet" type="text/css" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="./node_modules/bootstrap/dist/css/bootstrap-theme.css">
+	</head>
+	<body>
+
+		<script src="./node_modules/jquery/dist/jquery.js"></script>
+		<script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+		<script src="./js/jquery.bootstrap-modal-maker.js"></script>
+		<script>
+			$(function () {
+				$.modalMaker({
+					'title': 'Hello World!',
+					'content': '<p>This is my first modal.</p><p>Isn\'t it cool?</p>'
+				});
+			})
+		</script>
+	</body>
+</html>
